@@ -1,0 +1,16 @@
+@tailwind base;
+  @tailwind components;
+  @tailwind utilities;
+
+
+body { 
+   background-color:  #f8f5ff;
+}
+
+.second-color {
+  background-color:  #fff7f3; 
+}
+
+.lef-colr {
+  background-color: #f6fef9;
+}
