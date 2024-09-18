@@ -16,7 +16,7 @@ function Home() {
     function submitHandler() {
         console.log(inputText.current.value)
         const chatGptUrl = "https://api.openai.com/v1/chat/completions";
-        let myAPI = process.env.React_App_my_api;
+        const myAPI = "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";
         console.log(myAPI)
         const headers = {
             'Content-Type': 'application/json',
