@@ -14,7 +14,7 @@ function Images() {
     function submitHandler() {
         console.log(inputText.current.value)
         const chatGptUrl = "https://api.openai.com/v1/images/generations"
-        const myAPI = "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";
+        const myAPI = "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";
 
         console.log(myAPI)
         const headers = {
