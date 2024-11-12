@@ -16,9 +16,8 @@ function Home() {
     function submitHandler() {
         console.log(inputText.current.value)
         const chatGptUrl = "https://api.openai.com/v1/chat/completions";
-        const myAPI = "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";
-
-
+        const myAPI = "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";
+        console.log(myAPI)
         const headers = {
             'Content-Type': 'application/json',
             'Authorization': `Bearer ${myAPI}`,
@@ -65,7 +64,7 @@ function Home() {
                     carousel ? <div className="h-[85vh] lg:h-[83vh] flex flex-col justify-center items-center">
                     <BlurIn 
                         word="The future is not something we enter. It's something we make  Generate, create, inspire."
-                        className="text-black dark:text-white text-xl "
+                        className="text-black  text-xl "
                    
                     />
                     </div> : ""
