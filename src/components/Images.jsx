@@ -14,8 +14,7 @@ function Images() {
     function submitHandler() {
         console.log(inputText.current.value)
         const chatGptUrl = "https://api.openai.com/v1/images/generations"
-        const myAPI = "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";
-
+        const myAPI = "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";
 
         console.log(myAPI)
         const headers = {
@@ -76,9 +75,9 @@ function Images() {
                 }
 
                 {
-                    text ? <div className="flex flex-col h-[75vh] w-[80vw] space-y-8 p-4 bg-neutral-100 justify-center items-center">
+                    text ? <div className="flex flex-col h-[75vh] w-[80vw] space-y-8 p-4 text-black bg-neutral-100 justify-center items-center">
                     <FadeText
-                        className="text-xl md:text-center text-left md:text-4xl font-bold text-black dark:text-white"
+                        className="text-xl md:text-center text-left md:text-4xl font-bold text-black"
                         direction="up"
                         framerProps={{
                         show: { transition: { delay: 1 }, loop: Infinity },
@@ -86,7 +85,7 @@ function Images() {
                         text="Imagination is the beginning of creation"
                     />
                     <FadeText
-                        className="text-xl md:text-4xl text-left md:text-center font-bold text-black dark:text-white"
+                        className="text-xl md:text-4xl text-left md:text-center font-bold text-black"
                         direction="right"
                         framerProps={{
                         show: { transition: { delay: 2 }, loop: Infinity },
@@ -94,7 +93,7 @@ function Images() {
                         text="You imagine what you desire"
                     />
                     <FadeText
-                        className="text-xl md:text-4xl text-left md:text-center font-bold text-black dark:text-white"
+                        className="text-xl md:text-4xl text-left md:text-center font-bold text-black"
                         direction="down"
                         framerProps={{
                         show: { transition: { delay: 3 }, loop: Infinity },
@@ -102,7 +101,7 @@ function Images() {
                         text="you will what you imagine"
                     />
                     <FadeText
-                        className="text-xl md:text-4xl text-left md:text-center font-bold text-black dark:text-white"
+                        className="text-xl md:text-4xl text-left md:text-center font-bold text-black "
                         direction="left"
                         framerProps={{
                         show: { transition: { delay: 4 }, loop: Infinity },
