@@ -16,7 +16,7 @@ function Home() {
     function submitHandler() {
         console.log(inputText.current.value)
         const chatGptUrl = "https://api.openai.com/v1/chat/completions";
-        const myAPI = "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";
+        const myAPI = "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";
 
 
         const headers = {
